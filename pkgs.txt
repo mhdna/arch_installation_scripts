@@ -1,0 +1,213 @@
+# Essential packages
+    linux
+    linux-headers # needed for v4l2loopback
+    linux-firmware
+    linux-firmware-qlogic # missing firmware https://wiki.archlinux.org/title/Mkinitcpio#Possibly_missing_firmware_for_module_XXXX
+    lvm2
+    xorg-server
+    xorg-xrdb
+    xorg-xev
+    xorg-xsetroot
+    xorg-xinit
+    xorg-xkill
+    xorg-xprop
+    xorg-xwininfo
+    xorg-xinput
+    xorg-xset
+    xorg-xdpyinfo
+    nvidia-open
+    networkmanager
+    awesome
+    cbatticon
+    network-manager-applet
+    sxhkd
+    clipmenu
+    rofi
+    rofi-emoji
+    rofi-calc
+    xlockmore
+    xorg-fonts-100dpi
+    xorg-fonts-75dpi
+    xorg-font-util
+    xorg-xlsfonts
+    xautolock
+    arandr
+    picom
+    aria2
+    ntp  # network time protocol (to sync time with the internet)
+    tlp
+    tlp-rdw
+    bluez
+    bluez-utils
+    usbutils
+    brightnessctl
+    cronie
+    pulseaudio
+    pulseaudio-jack
+    pulseaudio-bluetooth
+    zsh
+    zsh-autosuggestions
+    nsxiv
+    atuin # shell history manager
+    ffmpeg4.4 # fix browser codecs issues
+    pamixer
+    xclip
+    exfat-utils # conflicts with some qemu package if using qemu. You can use `exfatprogs` if you wanna use qemu
+    unrar
+    unzip
+    tar
+    ttf-liberation
+    wqy-microhei
+    noto-fonts-emoji
+    pulsemixer
+
+    git
+    git-crypt
+    make
+    jq
+    android-tools
+    net-tools
+    bc
+    dosfstools
+    rsync
+    rclone
+    dnsmasq
+    gparted
+    gnupg
+    htop
+    maim
+    kdeconnect
+    aspell
+    aspell-en
+    stow
+    xcolor
+    sdcv
+    translate-shell
+    rlwrap # interactivity library for translate-shell
+    imagemagick
+    xdo
+    xdotool
+    termdown
+    keyd
+    fzf
+    entr
+    gnome-keyring
+    libnotify
+    parallel
+    man-db
+    mediainfo
+    perl-image-exiftool # image metadata editing tool, used for pdfgallery script
+    mlocate
+    moreutils
+    mpc
+    mpd
+    ncmpcpp
+    mpv
+    mpv-mpris #  allows control of mpv using standard media keys (e.g. in conjunction with playerctl)
+    playerctl
+    mtools
+    ntfs-3g
+    pass
+    pass-otp
+    patch
+    perl-file-mimeinfo
+    polkit
+    poppler
+    tk
+    progress
+    python-pip
+    redshift
+    socat
+    syncthing
+    tmux
+    qbittorrent
+    obsidian
+    thunderbird # Bye, mutt :)
+    lynx
+    ripgrep
+    monolith # save html into a single file
+    firejail # sandbox applications (I use it to block the internet for certain software)
+    xcape
+    yt-dlp
+    python-mutagen # needed for embedding thumbnails into yt-dlp downloaded videos
+    curl
+    wget
+    lsof
+    zathura
+    zathura-pdf-mupdf
+    xournalpp # pdf annotator
+    lxqt-archiver
+    firefox-developer-edition
+    img2pdf # convert a bunch of images into a pdf
+    trash-cli
+
+    # lf image previews
+    atool
+    libsixel
+    chafa
+    bat # for syntax color code previews
+    gnome-epub-thumbnailer
+    gnumeric # lf spreadsheets previewer
+    odt2txt # OpenDocuments previews
+    docx2txt
+    ffmpegthumbnailer # video thumbnails previews
+
+# Less important
+    virtualbox
+    obs-studio
+    v4l2loopback-dkms # required for obs virtual camera
+    v4l2loopback-utils
+    ffmpeg
+    gimp
+    pinta # paint alternative
+    kiwix-desktop # offline Wikipedia
+    xcalib # I use it to invert desktop colors in the night sometimes
+    vnstat # network traffic monitoring tool
+    namcap # to check PKGBUILD files
+    pdftk # helps me crop and edit PDF's
+    bandwhich # shows where the bandwidth is going right now
+    libreoffice-still
+    qrencode # qr code generator
+    pkgfile # to check to which package are file related
+    python-virtualenv # needed for cht.sh offline usage
+    ncdu # disk usage tui
+
+    shellcheck # shell scripts checker
+    shfmt # shell scripts formatter
+    neovim
+    go
+    pnpm 
+    docker
+    docker-compose
+    arch-wiki-docs
+    python-docs
+
+    net-tools
+    bind # (for dig)
+    arp-scan
+    traceroute
+
+--AUR--
+
+# Essential
+    brave-bin
+    kiwix-desktop
+    golangci-lint
+    yay
+    boomer-git
+    python-pynput # python gui automation
+    cht.sh-git # shell cheat sheat
+    lf-bin # my file manager
+    vimv-git
+    urlview
+    simple-mtpfs
+    downgrade
+    dragon-drop
+    anki-bin
+    pnmixer
+    # missing firmware https://wiki.archlinux.org/title/Mkinitcpio#Possibly_missing_firmware_for_module_XXXX
+    ast-firmware
+    upd72020x-fw
+    aic94xx-firmware
+    wd719x-firmware
+    aic94xx-firmware

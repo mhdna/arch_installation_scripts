@@ -1,0 +1,5 @@
+# vim: filetype=crontab
+* 0 * * * updatedb
+* */12 * * * . $HOME/.zprofile; weather-report
+# * * * * *  . $HOME/.zprofile; datelog
+# */25 * * * * . $HOME/.profile; /usr/bin/env DISPLAY=:0 newsup
