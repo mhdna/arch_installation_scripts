@@ -33,6 +33,9 @@ sudo sed -Ei "s/^#(ParallelDownloads).*/\1 = 10/;/^#Color$/s/#//" /etc/pacman.co
 # disable shutdown using power key.
 sudo sed -i "s/#HandlePowerKey=poweroff/HandlePowerKey=ignore/" $logind_conf
 
+# don't bootup when hibernated on lid open
+sudo sed -Ei "s/^#HibernateMode.*/HibernateMode=shutdown/" /etc/systemd/sleep.conf
+
 # disable BIOS beeps
 sudo rmmod pcspkr
 sudo mkdir -p /etc/modprobe.d
